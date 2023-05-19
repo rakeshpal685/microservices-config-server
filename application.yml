@@ -1,6 +1,10 @@
 spring:
     application:
         name: Config-Default
+    boot:
+        admin:
+            client:
+                url: http://localhost:1111
 
 #Telling where to look for eureka
 eureka:
