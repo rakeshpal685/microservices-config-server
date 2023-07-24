@@ -1,6 +1,6 @@
 spring:
-    #application:
-        #name: Config-Default
+    application:
+        name: EMPLOYEE-SERVICE
     boot:
         admin:
             client:
@@ -22,3 +22,5 @@ management:
         web:
             exposure:
                 include: '*'
+server:
+    port: 8081
