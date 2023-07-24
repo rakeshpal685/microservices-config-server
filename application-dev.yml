@@ -1,6 +1,15 @@
+server:
+  port: 8085
+  
 spring:
-    application:
-        name: Config-Dev
+  main:
+    banner-mode: off
+  application:
+    name: CONFIG_SERVER
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
 
 #Telling where to look for eureka
 eureka:
@@ -18,3 +27,6 @@ management:
         web:
             exposure:
                 include: '*'
+logging:
+  level:
+    root: INFO
