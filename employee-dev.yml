@@ -1,8 +1,8 @@
 spring:
   main:
     banner-mode: off
-  application:
-    name: EMPLOYEE-QA-SERVICE
+  # application:
+  #   name: EMPLOYEE-QA-SERVICE
   boot:
     admin:
       client:
