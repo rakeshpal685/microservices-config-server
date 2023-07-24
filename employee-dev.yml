@@ -1,12 +1,12 @@
 spring:
-  main:
-    banner-mode: off
+    main:
+        banner-mode: off
   # application:
   #   name: EMPLOYEE-QA-SERVICE
-  boot:
-    admin:
-      client:
-        url: http://localhost:1111/
+    boot:
+        admin:
+            client:
+              url: http://localhost:1111/
 
 #Telling where to look for eureka
 eureka:
