@@ -2,7 +2,7 @@ spring:
   main:
     banner-mode: off
   application:
-    name: CONFIG_SERVER
+    name: EMPLOYEE-QA-SERVICE
   boot:
     admin:
       client:
@@ -27,3 +27,6 @@ management:
 logging:
   level:
     root: INFO
+
+server:
+    port: 8081
