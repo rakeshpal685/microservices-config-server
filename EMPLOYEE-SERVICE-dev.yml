@@ -1,7 +1,7 @@
 #If we are using yml then the format for the cipher text must enclosed within single quotes, for .properties files no need
 spring:
     main:
-        banner-mode: off
+        banner-mode: 
   # application:
   #   name: EMPLOYEE-QA-SERVICE
     boot:
