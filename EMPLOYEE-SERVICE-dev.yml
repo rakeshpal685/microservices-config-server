@@ -35,4 +35,5 @@ logging:
 
 server:
 #8081
-    port: '{cipher}2331a6feb24876312b27c642e9264eb8a07e4a4b76192e687802ad043b3ed7e9'
+# Somwtimes in yml we have to use '' for port
+    port: {cipher}2331a6feb24876312b27c642e9264eb8a07e4a4b76192e687802ad043b3ed7e9
